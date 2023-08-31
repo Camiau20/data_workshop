@@ -19,7 +19,15 @@ This Jupyter notebook contains solutions to specified requirements along with di
 - Matplotlib
 - MySQL database
 - CSV data file ("candidates.csv")
-- JSON credentials file ("credentials.json")
+- JSON credentials file ("credentials.json") with this format:
+  ```
+  {
+    "user": "your_username",
+    "password": "your_password",
+    "server": "your_server_address",
+    "db": "your_database_name"
+  }
+``` 
 
 ## Setup <a name="setup"></a>
 Install the required libraries using the following commands:
@@ -35,11 +43,12 @@ Then, you have to run the lab with the command:
 ```python
 jupyter lab
 ```
+After this steps, you have to clon this repository and run the jupyter notebook workshop.ipynb.
 
-## Data Loading and Database Population <a name="data-loading-and-database-population"></a>
+## Data Loading <a name="data-loading"></a>
 - Establish a connection to the MySQL database using SQLAlchemy.
 - Create a "candidates" table with relevant columns using the declarative Base class.
-- Load data from the CSV file ("candidates.csv") into the database, calculate the "hired" column, and populate the table.
+- Load data from the CSV file ("candidates.csv") into the database and calculate the "hired" column.
 
 ## Visualizations <a name="visualizations"></a>
 1. Hires by Technology (Pie Chart) <a name="1-hires-by-technology-pie-chart"></a>
