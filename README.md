@@ -53,14 +53,14 @@ After this steps, you have to clon this repository and run the jupyter notebook 
 ## Visualizations <a name="visualizations"></a>
 1. Hires by Technology (Pie Chart) <a name="1-hires-by-technology-pie-chart"></a>
   - Query the database to get the count of hires by technology.
-  - Create a pie chart to visualize the distribution of hires across different technologies ([data_workshop/workshop.ipynb/cell 3](https://github.com/Camiau20/data_workshop/blob/main/workshop.ipynb).
+  - Create a pie chart to visualize the distribution of hires across different technologies ([data_workshop/workshop.ipynb/cell 3](https://github.com/Camiau20/data_workshop/blob/main/workshop.ipynb)).
 2. Hires by Year (Horizontal Bar Chart) <a name="2-hires-by-year-horizontal-bar-chart"></a>
   - Query the database to get the count of hires by year.
-  - Create a horizontal bar chart to display the number of hires for each year ([data_workshop/workshop.ipynb/cell 4](https://github.com/Camiau20/data_workshop/blob/main/workshop.ipynb).
+  - Create a horizontal bar chart to display the number of hires for each year ([data_workshop/workshop.ipynb/cell 4](https://github.com/Camiau20/data_workshop/blob/main/workshop.ipynb)).
 3. Hires by Seniority (Bar Chart) <a name="3-hires-by-seniority-bar-chart"></a>
   - Query the database to get the count of hires by seniority level.
-  - Create a bar chart to visualize the number of hires for each seniority level ([data_workshop/workshop.ipynb/cell 5](https://github.com/Camiau20/data_workshop/blob/main/workshop.ipynb).
+  - Create a bar chart to visualize the number of hires for each seniority level ([data_workshop/workshop.ipynb/cell 5](https://github.com/Camiau20/data_workshop/blob/main/workshop.ipynb)).
 4. Hires by Country Over Years (Multiline Chart) <a name="4-hires-by-country-over-years-multiline-chart"></a>
   - Query the database to get the count of hires by country over different years.
-  - Create a multiline chart to show the trend of hires for selected countries over the years ([data_workshop/workshop.ipynb/cell 6](https://github.com/Camiau20/data_workshop/blob/main/workshop.ipynb).
+  - Create a multiline chart to show the trend of hires for selected countries over the years ([data_workshop/workshop.ipynb/cell 6](https://github.com/Camiau20/data_workshop/blob/main/workshop.ipynb)).
 
