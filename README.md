@@ -6,7 +6,7 @@ This Jupyter notebook contains solutions to specified requirements along with di
 ## Table of Contents
 - [Requirements](#requirements)
 - [Setup](#setup)
-- [Data Loading and Database Population](#data-loading-and-database-population)
+- [Data Loading](#data-loading)
 - [Visualizations](#visualizations)
   - [1. Hires by Technology (Pie Chart)](#1-hires-by-technology-pie-chart)
   - [2. Hires by Year (Horizontal Bar Chart)](#2-hires-by-year-horizontal-bar-chart)
