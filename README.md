@@ -20,6 +20,7 @@ This Jupyter notebook contains solutions to specified requirements along with di
 - MySQL database
 - CSV data file ("candidates.csv")
 - JSON credentials file ("credentials.json") with this format:
+  
   ```
   {
     "user": "your_username",
