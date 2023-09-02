@@ -31,6 +31,7 @@ This Jupyter notebook contains solutions to specified requirements along with di
 
 ## Setup <a name="setup"></a>
 Install the required libraries using the following commands:
+
 ```python
 pip install sqlalchemy matplotlib pandas
 ```
@@ -40,6 +41,7 @@ In this case the project is in a upyter notebook, an installation of jupyter is 
 pip install jupyterlab
 ```
 Then, you have to run the lab with the command:
+
 ```python
 jupyter lab
 ```
@@ -48,8 +50,19 @@ After this steps, you have to clon this repository and run the jupyter notebook 
 ## Data Loading <a name="data-loading"></a>
 - Establish a connection to the MySQL database using SQLAlchemy.
 - Create a "candidates" table with relevant columns using the declarative Base class.
-- Load data from the CSV file ("candidates.csv") into the database and calculate the "hired" column.
+- Load data from the CSV file ("candidates.csv") into the database and calculate the "hired" column. You have to take into account that the data in the csv file is randomly generated, and the columns with their respective data types are:
 
+    - first_name: Varchar
+    - last_name: Varchar
+    - email: Varchar
+    - application_date: Date
+    - country: Varchar
+    - yoe: Integer
+    - seniority: Varchar
+    - technology: Varchar
+    - code_challenge_score: Integer
+    - technical_interview_score: Integer
+  
 ## Visualizations <a name="visualizations"></a>
 1. Hires by Technology (Pie Chart) <a name="1-hires-by-technology-pie-chart"></a>
   - Query the database to get the count of hires by technology.
